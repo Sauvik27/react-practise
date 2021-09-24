@@ -6,19 +6,23 @@ import ComponentB_22 from './components/ComponentB_22';
 import ComponentC16 from './components/ComponentC16';
 import ComponentC_22 from './components/ComponentC_22';
 import Counter1_19 from './components/Counter1_19';
+import Counter27 from './components/Counter27';
 import Counter2_20 from './components/Counter2_20';
 import Counter3_21 from './components/Counter3_21';
 import DataFetching11 from './components/DataFetching11';
 import DataFetching1_23 from './components/DataFetching1_23';
 import DataFetching2_23 from './components/DataFetching2_23';
+import FocusInput28 from './components/FocusInput28';
 import HookCounteOne from './components/HookCounteOne';
 import HookCounter from './components/HookCounter';
 import HookCounter2 from './components/HookCounter2';
 import HookCounter3 from './components/HookCounter3';
 import HookCOunter4 from './components/HookCOunter4';
 import HookMouse from './components/HookMouse';
+import HookTimer29 from './components/HookTimer29';
 import IntervalHookcounter10 from './components/IntervalHookcounter10';
 import MouseContainer from './components/MouseContainer';
+import ParentComponent_26 from './components/ParentComponent_26';
 import Stopwatch from './components/Stopwatch';
 
 export const CountContect = React.createContext();
@@ -69,6 +73,10 @@ function App() {
       <ComponentC_22/> */}
       {/* <DataFetching1_23/>
       <DataFetching2_23/> */}
+      {/* <ParentComponent_26/> //useCallBack */}
+      {/* <Counter27/> //useMemo */}
+      {/* <FocusInput28/>
+      <HookTimer29/> */}
     </div>
     // </CountContect.Provider> 
   );
